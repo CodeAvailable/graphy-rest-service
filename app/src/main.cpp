@@ -1,7 +1,7 @@
 #include <iostream>
-#include "main.h"
+#include "graphyRestService.h"
 
 int main()
 {
-	std::cout << "hello world" << " " << example::test() << std::endl;
+    std::cout << "hello world" << " " << graphyRestService::test() << std::endl;
 }

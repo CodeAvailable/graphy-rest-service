@@ -1,6 +1,6 @@
-#include "main.h"
+#include "graphyRestService.h"
 
-namespace example
+namespace graphyRestService
 {
 #ifdef _WIN32
 	long _stdcall test()
