@@ -10,7 +10,7 @@ class graphyRestServiceConan(ConanFile):
     generators = 'cmake'
     options = {'shared': [True, False]}
     default_options = 'shared=False'
-    requires = ('')
+    requires = ('boost/1.71.0@conan/stable','Poco/1.10.1@pocoproject/stable','log4cplus/2.0.4@bincrafters/stable')
 
     def build(self):
         cmake = CMake(self)
